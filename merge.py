@@ -4,8 +4,7 @@ Marvin Xin
 """
 
 def merge(input1, input2):
-    print(sorted(input1 + input2))
-    return 
+    return sorted(input+input2)
     
 
 
