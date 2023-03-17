@@ -4,9 +4,15 @@ Marvin Xin
 """
 
 def palindrome(input):
-    print(input)
     reverse = input[::-1]
     if reverse == input:
-        return 1
-    elif reverse == input:
-        return 0
+        return True
+    
+    elif reverse != input:
+        return False
+       
+
+
+
+
+

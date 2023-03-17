@@ -7,3 +7,16 @@ def double(func):
         func()
     return inner
 
+
+'''
+
+@double
+def greet():
+    print("Hello World!")
+
+
+def main():
+    greet()
+
+main()
+'''
