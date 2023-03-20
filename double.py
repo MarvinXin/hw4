@@ -3,13 +3,13 @@
 def double(func):
     def inner():
         func()
-        print("Let's do this again!")
+        print("Let's try that again!")
         func()
     return inner
 
 
-'''
 
+"""
 @double
 def greet():
     print("Hello World!")
@@ -19,4 +19,4 @@ def main():
     greet()
 
 main()
-'''
+"""
