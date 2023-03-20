@@ -3,7 +3,7 @@ from double import double
 def double(func):
     def inner():
         func()
-        print("Lets do this again!")
+        print("Let's do this again!")
         func()
     return inner
 
