@@ -1,4 +1,4 @@
-from double import double
+#from double import double
 
 def double(func):
     def inner():
