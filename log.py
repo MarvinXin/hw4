@@ -1,5 +1,5 @@
 import time
-#from log import timestamp
+from log import timestamp
 
 def timestamp(func):
     def inner():
