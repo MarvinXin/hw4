@@ -2,4 +2,4 @@
 
 2.) The increment_int_b does changes the variable b after the function is called.
 
-3. They are different because question 1 is applying the pass by value which does not change the value of a after being called by the function, whereas question 2 does change the value as it passes through the variable b by applying the pass by reference which will change the value of b.
+3.) They are different because question 1 is applying the pass by value which does not change the value of a after being called by the function, whereas question 2 does change the value as it passes through the variable b by applying the pass by reference which will change the value of b.
